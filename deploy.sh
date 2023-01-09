@@ -14,7 +14,7 @@ echo > .nojekyll
 
 echo 'xn--3l8hze.ws' > CNAME
 
-git init
+git init -b main
 git checkout -B main
 git add -A
 git commit -m 'deploy'
